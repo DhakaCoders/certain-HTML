@@ -16,11 +16,11 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
+    background: #f0f0f0;
     color: #000000;
     font-size: 18px;
     line-height: 24px;
-     font-family: 'Candara';
+    font-family: 'Open Sans', sans-serif;
 }
 p{
 	line-height: 1.2;
@@ -96,7 +96,7 @@ Containers
 
 }
 .container{
-	max-width: 1200px;
+	max-width: 1170px;
 	width: 100%;
 }
 .container-md{
@@ -193,6 +193,11 @@ ul.sub-menu li:before,
 .fl-pagi-ctlr ul li:before,
 .reset-slect ul li:before{
 	content: none!important;
+}
+a {
+    display: inline-block;
+    vertical-align: baseline;
+    color: #000;
 }
 
 
