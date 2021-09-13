@@ -21,8 +21,9 @@
 .hdr-tel span i,
 .hdr-tel a{
     color: #fff;
-    line-height: 0.7;
+    line-height: 0.8;
     display: inline-block;
+    font-weight: 400;
 }
 .hdr-btm {
     background: #fff;
@@ -66,11 +67,13 @@ nav.main-nav > ul > li{
 }
 nav.main-nav > ul > li > a{
 	font-size: 18px;
-    line-height: 0.7;
+    font-weight: 600;
+    line-height: 0.8;
     color: #000000;
     position: relative;
     padding-bottom: 20px;
     display: inline-block;
+    text-transform: uppercase;
 }
 .hdr-top-menu ul li a:hover,
 .hdr-tel a:hover,
