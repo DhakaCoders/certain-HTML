@@ -176,7 +176,11 @@ ul.reset-list,
 ol.reset-list,
 ul.sub-menu,
 .fl-pagi-ctlr ul,
-.reset-slect ul{
+.reset-slect ul,
+ul.ab-top-menu,
+.fl-pagination-ctlr ul,
+.attachments-browser ul,
+.fl-products-cntlr > ul.products{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -184,7 +188,11 @@ ul.sub-menu,
 .reset-list li,
 ul.sub-menu li,
 .fl-pagi-ctlr ul li,
-.reset-slect ul li{
+.reset-slect ul li,
+ul.ab-top-menu li,
+.fl-pagination-ctlr ul li,
+.attachments-browser ul li,
+.fl-products-cntlr > ul.products > li{
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -193,9 +201,15 @@ ul.sub-menu li,
 .reset-list li:before,
 ul.sub-menu li:before,
 .fl-pagi-ctlr ul li:before,
-.reset-slect ul li:before{
+.reset-slect ul li:before,
+ul.ab-top-menu li:before,
+.fl-pagination-ctlr ul li:before,
+.attachments-browser ul li:before,
+.fl-products-cntlr > ul.products > li:before{
 	content: none!important;
 }
+
+
 a {
     display: inline-block;
     vertical-align: baseline;
