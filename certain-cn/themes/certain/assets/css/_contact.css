@@ -1,0 +1,19 @@
+.contect-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.contect-form-lft {
+    width: 38%;
+    padding: 0 15px;
+}
+
+.contect-form-rgt {
+    width: 62%;
+    padding: 0 15px;
+}
+.contect-info-wrap,
+.contect-forn-rgt-inner {
+    border-top: 20px solid #bdd9b6;
+    padding-top: 35px;
+}

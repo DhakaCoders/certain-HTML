@@ -14,7 +14,9 @@ a, a:hover, a:focus, button:hover, button:focus{
 	text-decoration: none;
 	outline: 0;
 }
-
+a:hover{
+	color: #21aa01;
+}
 body {
     background: #f0f0f0;
     color: #000000;
@@ -200,6 +202,25 @@ a {
     color: #000;
 }
 
+.fl-green-btn{
+	display: inline-block;
+	vertical-align: baseline;
+	color: #fff;
+	background-color: #21aa01;
+	font-weight: 700;
+	max-width: 186px;
+	width: 100%;
+	text-transform: uppercase;
+    text-align: center;
+    padding: 12px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.fl-green-btn:hover{
+	background: #fff;
+	color: #21aa01;
+}
 
 
 
