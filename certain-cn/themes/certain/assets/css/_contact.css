@@ -16,4 +16,35 @@
 .contect-forn-rgt-inner {
     border-top: 20px solid #bdd9b6;
     padding-top: 35px;
+    background: #fff;
+    padding-left: 30px;
+}
+.contect-forn-rgt-inner {
+    padding-left: 40px;
+}
+.input-field{
+    margin-bottom: 20px;
+}
+.input-field textarea, 
+.input-field input[type="email"], 
+.input-field input[type="text"] {
+    width: 100%;
+    border: 1px solid #C6C6C6;
+    height: 40px;
+    padding: 0 9px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #f0f0f0;
+}
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.cnt-tel {
+    margin-bottom: 4px;
+}
+
+.cnt-mail {
+    margin-bottom: 40px;
 }
