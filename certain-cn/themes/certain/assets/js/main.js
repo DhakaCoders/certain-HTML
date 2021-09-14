@@ -170,6 +170,20 @@ google.maps.event.addDomListener(window, 'load', initialize);
   }, false);
 })();
 
+
+  $(".hamburgar-icon").click(function(){
+    $(".xs-mobile-menu").slideToggle();
+    $(this).toggleClass("close-icon");
+  });
+  $('li.menu-item-has-children > a').on('click', function(e){
+    e.preventDefault();
+    $(this).parent().siblings().find('.sub-menu').slideUp(300);
+    $(this).parent().find('.sub-menu').slideToggle(300);
+    $(this).toggleClass('sub-menu-active');
+    $(this).parent().siblings().find('.sub-menu-active').removeClass('sub-menu-active');
+  });
+
+
     new WOW().init();
 
 })(jQuery);

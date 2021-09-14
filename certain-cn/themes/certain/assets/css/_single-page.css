@@ -31,3 +31,82 @@
 .prom-dev-grid-item span{
     display: inline-block;
 }
+.therapeutic-sec{
+    background: #fff;
+}
+.single-page-banner {
+    position: relative;
+    height: 443px;
+    display: flex;
+    align-items: center;
+}
+.single-page-bnr-des {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
+.single-page-banner-cntlr {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-page-bnr-desc {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+.single-page-bnr-title {
+    margin-bottom: 20px;
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.single-page-bnr-sub-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.single-page-text-cntlr h3{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.single-page-text-cntlr p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.margin-btm{
+    margin-bottom: 35px!important;
+}
+.single-page-text-cntlr h5{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.default-page-con ul, ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 26px;
+    padding-bottom: 20px;
+}
+.default-page-con ul li, ul li {
+    padding: 5px 0 3px 30px;
+    position: relative;
+    line-height: 24px;
+}
+.default-page-con ul li:before, ul li:before{
+    content: "";
+    position: absolute;
+    background: url(../images/ul-li-icon.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 15px;
+    height: 11px;
+    left: 0;
+    margin-top: 7px;
+}
+.single-page-btn a {
+    max-width: 184px;
+}
