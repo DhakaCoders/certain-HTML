@@ -110,6 +110,7 @@
     transform: scale(1.1);
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
+    width: 100%;
 }
 .potential-grid-item:hover .potential-grid-img-cntlr img{
     transform: scale(1);
@@ -230,6 +231,9 @@
         padding: 0 14px;
         padding-bottom: 24px;
     }
+    .rgt-des-sub-heading {
+        font-size: 28px;
+    }
 
 }
 @media(max-width: 1199px){
@@ -257,6 +261,9 @@
     .lftimg-rgtdes-lft{
         padding-left: 50px;
     }
+    .rgt-des-sub-heading {
+        font-size: 26px;
+    }
 }
 @media(max-width: 991px){
     .hm-bnr-title{
@@ -273,12 +280,53 @@
         width: 50%;
     }
     .lftimg-rgtdes-lft {
-        padding-left: 20px;
+        padding-left: 0px;
+    }
+    .lftimg-rgtdes-rgt{
+        padding-top: 60px;
+    }
+    .rgt-des-sub-heading {
+        font-size: 24px;
     }
 }
 @media (max-width: 767px){
-    .lftimg-rgtdes-lft {
-        padding-left: 0px;
+    .rgt-des-sub-heading {
+        font-size: 20px;
+    }
+    .lftimg-rgtdes-rgt {
+        padding-top: 25px;
+    }
+    .potential-grids-cntlr ul{
+        margin: 0 -10px;
+    }
+    .potential-grids-cntlr ul li{
+        padding: 0 10px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 575px){
+    .lftimg-rgtdes-rgt,
+    .lftimg-rgtdes-lft{
+        width: 100%;
+    }
+    .rgt-des {
+        text-align: center;
+    }
+    .potential-grids-cntlr ul{
+        margin: 0;
+    }
+    .potential-grids-cntlr ul li{
+        width: 100%;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+    .potential-grid-item {
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    .lftimg-rgtdes-inner {
+        max-width: 375px;
+        margin: 0 auto;
     }
 }
     
