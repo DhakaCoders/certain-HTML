@@ -1,3 +1,6 @@
+section.single-page-text-sec {
+    padding: 50px 0;
+}
 .programe-development-cntlr ul{
     display: flex;
     flex-wrap: wrap;
@@ -109,4 +112,14 @@
 }
 .single-page-btn a {
     max-width: 184px;
+}
+
+
+@media (max-width: 991px){
+    .programe-development-cntlr ul{
+        margin: 0 -20px;
+    }
+    .programe-development-cntlr ul li{
+        padding: 0 20px;
+    }
 }
