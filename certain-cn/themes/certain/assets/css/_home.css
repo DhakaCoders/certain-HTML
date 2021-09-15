@@ -150,7 +150,7 @@
     font-weight: 600;
     color: #333333;
 }
-.lftimg-rgtdes-inner.clearfix {
+.lftimg-rgtdes-inner {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
