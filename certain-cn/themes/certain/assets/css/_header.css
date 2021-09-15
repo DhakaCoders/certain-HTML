@@ -315,4 +315,27 @@ nav.main-nav > ul > li.menu-item-has-children:hover > a{
     .hdr-top-menu ul li {
         padding: 0 19px;
     }
+    .hdr-btm-rgt {
+        margin-top: -3px;
+    }
+    .hdr-btm-inr {
+        padding-top: 30px;
+    }
+}
+@media(max-width: 575px){
+    .hdr-btm-inr {
+        padding-top: 20px;
+    }
+}
+@media(max-width: 479px){
+    .logo {
+        max-width: 235px;
+        width: 100%;
+    }
+}
+@media(max-width: 359px){
+    .logo {
+        max-width: 200px;
+        width: 100%;
+    }
 }

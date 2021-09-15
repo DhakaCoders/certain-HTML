@@ -132,3 +132,13 @@
         padding-right: 40px;
     }
 }
+@media(max-width: 479px){
+    .input-field textarea{
+        height: 124px;
+    }
+}
+@media(max-width: 359px){
+    .input-field textarea{
+        height: 100px;
+    }
+}
