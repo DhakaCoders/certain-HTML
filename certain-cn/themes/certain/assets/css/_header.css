@@ -270,10 +270,10 @@ nav.main-nav > ul > li.menu-item-has-children:hover > a{
         padding-top: 35px;
     }
      nav.main-nav > ul{
-        margin: 0 -12px;
+        margin: 0 -15px;
     }
     nav.main-nav > ul > li{
-        padding: 0 12px;
+        padding: 0 15px;
     }
     nav.main-nav > ul > li.menu-item-has-children:after {
         right: -3px;

@@ -97,3 +97,38 @@
 .contect-form-rgt-top {
     padding-right: 37px;
 }
+.contect-forn-rgt-inner,
+.contect-info-wrap{
+    height: 100%;
+}
+.cnt-addres {
+    margin-bottom: 30px;
+}
+
+@media(max-width: 991px){
+    .contect-info-wrap {
+        padding-left: 25px;
+        padding-top: 30px;
+    }
+    .contect-forn-rgt-inner {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .contect-form-lft,
+    .contect-form-rgt{
+        padding: 0 10px
+}
+
+@media(max-width: 767px){
+    .contect-form-lft {
+        margin-bottom: 50px;
+    }
+    .contect-form-lft,
+    .contect-form-rgt{
+        width: 100%;
+        padding: 0;
+    }
+    .contect-form-wrap {
+        padding-right: 40px;
+    }
+}

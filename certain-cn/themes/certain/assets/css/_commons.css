@@ -237,7 +237,9 @@ a {
 	color: #21aa01;
 }
 
-
+.d-none{
+	display: none;
+}
 
 /**
 Selects

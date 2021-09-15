@@ -49,6 +49,7 @@
     height: 66px;
     width: 66px;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     left: 0;
     top: 0;
     margin-top: 4px;
@@ -168,3 +169,116 @@
     line-height: 1.5;
     color: #333333;;
 }
+
+
+
+
+/*responsive-start*/
+
+
+@media(max-width: 1499px){
+    .hm-banner{
+        height: 550px;
+    }
+    .Pharmacist-bnr-sec{
+        height: 450px;
+    }
+    .hm-bnr-title{
+        font-size: 65px;
+        margin-bottom: 30px;
+    }
+    .sec-entry-heading{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .hm-bnr-sub-title{
+        font-size: 32px;
+    }
+    .hm-bnr-title:after{
+        margin-top: -3px;
+    }
+    .potential-bnr-sub-title{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .rgt-des-sub-heading{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 1399px){
+    .hm-bnr-title{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+    .hm-banner{
+        height: 500px;
+    }
+    .Pharmacist-bnr-sec{
+        height: 400px;
+    }
+    .hdr-top-menu ul{
+        margin: 0 -30px;
+    }
+    .hdr-top-menu ul li{
+        padding: 0 30px;
+    }
+    .potential-grids-cntlr ul{
+        margin: 0 -14px;
+    }
+    .potential-grids-cntlr ul li{
+        padding: 0 14px;
+        padding-bottom: 24px;
+    }
+
+}
+@media(max-width: 1199px){
+    .hm-bnr-title{
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+    .hm-banner{
+        height: 450px;
+    }
+    .Pharmacist-bnr-sec{
+        height: 370px;
+    }
+    .hdr-top-menu ul{
+        margin: 0 -15px;
+    }
+    .hdr-top-menu ul li{
+        padding: 0 15px;
+    }
+    .hm-bnr-title:after {
+        margin-top: -4px;
+        height: 60px;
+        width: 60px;
+    }
+    .lftimg-rgtdes-lft{
+        padding-left: 50px;
+    }
+}
+@media(max-width: 991px){
+    .hm-bnr-title{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .hm-banner{
+        height: 400px;
+    }
+    .Pharmacist-bnr-sec{
+        height: 340px;
+    }
+    .potential-grids-cntlr ul li{
+        width: 50%;
+    }
+    .lftimg-rgtdes-lft {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 767px){
+    .lftimg-rgtdes-lft {
+        padding-left: 0px;
+    }
+}
+    
