@@ -113,13 +113,147 @@ section.single-page-text-sec {
 .single-page-btn a {
     max-width: 184px;
 }
-
-
-@media (max-width: 991px){
+section.tsa-sec {
+    display: none;
+}
+@media (max-width: 1499px){
+    .single-page-bnr-title{
+        font-size: 50px;
+        margin-bottom: 18px;
+    }
+    .single-page-bnr-sub-title{
+        font-size: 32px;
+    }
+    .single-page-banner{
+        height: 400px;
+    }
+}
+@media (max-width: 1399px){
+    .single-page-bnr-title{
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+    .single-page-bnr-sub-title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1199px){
+    .single-page-bnr-title{
+        font-size: 44px;
+        margin-bottom: 14px;
+    }
+    .single-page-bnr-sub-title{
+        font-size: 27px;
+    }
     .programe-development-cntlr ul{
         margin: 0 -20px;
     }
     .programe-development-cntlr ul li{
         padding: 0 20px;
+    }
+    .single-page-banner{
+        height: 350px;
+    }
+}
+
+@media (max-width: 991px){
+    .single-page-bnr-title{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .single-page-bnr-sub-title{
+        font-size: 24px;
+    }
+    .programe-development-cntlr{
+        padding: 30px 0;
+    }
+    .programe-development-cntlr ul{
+        margin: 0 -15px;
+    }
+    .programe-development-cntlr ul li{
+        padding: 0 15px;
+    }
+    .prom-dev-grid-item{
+        padding-left: 45px;
+    }
+    .single-page-banner{
+        height: 300px;
+    }
+
+}
+@media (max-width: 767px){
+    .single-page-bnr-title{
+        font-size: 37px;
+        margin-bottom: 8px;
+    }
+    .single-page-bnr-sub-title{
+        font-size: 20px;
+    }
+    .programe-development-cntlr{
+        padding: 20px 0;
+    }
+    .programe-development-cntlr ul{
+        margin: 0 -10px;
+    }
+    .programe-development-cntlr ul li{
+        padding: 0 10px;
+    }
+    .prom-dev-grid-item {
+        padding-left: 40px;
+    }
+    .prom-dev-grid-item i {
+        height: 25px;
+        width: 25px;
+    }
+    .prom-dev-grid-item span{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+@media (max-width: 575px){
+    .single-page-banner{
+        height: 270px;
+    }
+    .single-page-bnr-title{
+        font-size: 32px;
+    }
+    .programe-development-cntlr {
+        padding: 15px 0;
+    }
+    .programe-development-cntlr ul{
+        margin: 0 -8px;
+    }
+    .programe-development-cntlr ul li{
+        padding: 0 8px;
+    }
+    .prom-dev-grid-item {
+        padding-left: 32px;
+    }
+    .prom-dev-grid-item i {
+        height: 21px;
+        width: 21px;
+    }
+    .prom-dev-grid-item span{
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+@media (max-width: 479px){
+    .single-page-bnr-title{
+        font-size: 29px;
+    }
+    .programe-development-sec{
+        display: none;
+    }
+    .default-page-con ul, ul{
+        padding-left: 0;
+    }
+    .single-page-btn a {
+        max-width: 100%;
+    }
+}
+@media (max-width: 359px){
+    .single-page-bnr-title{
+        font-size: 26px;
     }
 }
